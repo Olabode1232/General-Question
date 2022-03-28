@@ -16,18 +16,27 @@ h1:hover{
 }
 div.container{
     background-color: rgb(211, 187, 187);
+    box-shadow: 1px -2px 3px #7e6b6b, -1px 2px 3px #7e6b6b;
     font-size: 30px;
     height: auto;
     width: 50%;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;  
 }
-
 button.plus{
     color: red;
     position: relative;
     left: 47%;
     bottom: 69px;
-
+}
+button.minus{
+    color: red;
+    position: relative;
+    left: 43%;
+    bottom: 69px; 
+    display: none; 
+}
+.content{
+    font-size: 20px;
+    /* display: none; */
 }
